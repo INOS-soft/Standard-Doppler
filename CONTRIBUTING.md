@@ -1,153 +1,30 @@
-# Contributing to GitHub Desktop
+# Contribution Guidelines
 
-:+1: :tada: :sparkling_heart: Thanks for your interest! :sparkling_heart: :tada: :+1:
+Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
-The following is a set of guidelines for contributing to GitHub Desktop and its
-related projects, which are hosted in the [Desktop organization](https://github.com/desktop)
-on GitHub. These are just guidelines, not rules. Use your best judgment, and
-feel free to propose changes to this document in a pull request.
+## Adding an awesome list
 
-Note that GitHub Desktop is an evolving project, so expect things to change over
-time as the team learns, listens and refines how we work with the community.
+Please ensure your pull request adheres to the [list guidelines](pull_request_template.md).
 
-#### Table Of Contents
+## Creating your own awesome list
 
-- [What should I know before I get started?](#what-should-i-know-before-i-get-started)
-  * [Code of Conduct](#code-of-conduct)
-  * [The Roadmap](#the-roadmap)
+To create your own list, check out the [instructions](create-list.md).
 
-- [How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
-  * [Help Wanted](#help-wanted)
+## Adding something to an awesome list
 
-- [Process Documentation](#process-documentation)
+If you have something awesome to contribute to an awesome list, this is how you do it.
 
-## What should I know before I get started?
+You'll need a [GitHub account](https://github.com/join)!
 
-### Code of Conduct
+1. Access the awesome list's GitHub page. For example: https://github.com/sindresorhus/awesome
+2. Click on the `readme.md` file: ![Step 2 Click on Readme.md](https://cloud.githubusercontent.com/assets/170270/9402920/53a7e3ea-480c-11e5-9d81-aecf64be55eb.png)
+3. Now click on the edit icon. ![Step 3 - Click on Edit](https://cloud.githubusercontent.com/assets/170270/9402927/6506af22-480c-11e5-8c18-7ea823530099.png)
+4. You can start editing the text of the file in the in-browser editor. Make sure you follow guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). ![Step 4 - Edit the file](https://cloud.githubusercontent.com/assets/170270/9402932/7301c3a0-480c-11e5-81f5-7e343b71674f.png)
+5. Say why you're proposing the changes, and then click on "Propose file change". ![Step 5 - Propose Changes](https://cloud.githubusercontent.com/assets/170270/9402937/7dd0652a-480c-11e5-9138-bd14244593d5.png)
+6. Submit the [pull request](https://help.github.com/articles/using-pull-requests/)!
 
-This project adheres to the Contributor Covenant [code of conduct](../CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code.
-Please report unacceptable behavior to [opensource+desktop@github.com](mailto:opensource+desktop@github.com).
+## Updating your Pull Request
 
-### The Roadmap
+Sometimes, a maintainer of an awesome list will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-* list guidelines.
 
-GitHub Desktop recently announced its
-[1.0 release](https://github.com/blog/2437-announcing-github-desktop-1-0) and
-are working towards deprecating the classic Mac and Windows applications.
-
-Beyond that, we are working on a roadmap you can read [here](https://github.com/desktop/desktop/blob/development/docs/process/roadmap.md).
-The immediate milestones are more detailed, and the latter milestones are more
-fuzzy and subject to change.
-
-If you have ideas or suggestions please read the
-[Suggesting Enhancements](#suggesting-enhancements) section below to understand
-how to contribute your feedback.
-
-## How Can I Contribute?
-
-### Reporting Bugs
-
-This section guides you through submitting a bug report for GitHub Desktop.
-Following these guidelines helps maintainers and the community understand your
-report :pencil:, reproduce the behavior :computer: :computer:, and find related
-reports :mag_right:.
-
-Before creating bug reports, please check [this list](#before-submitting-a-bug-report)
-as you might find out that you don't need to create one. When you are creating
-a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report).
-Fill out [the required template](ISSUE_TEMPLATE/bug_report.md), the information
-it asks for helps us resolve issues faster.
-
-#### Before Submitting A Bug Report
-
-**Perform a [cursory search](https://github.com/desktop/desktop/labels/bug)**
-to see if the problem has already been reported. If it does exist, add a
-:thumbsup: to the issue to indicate this is also an issue for you, and add a
-comment to the existing issue if there is extra information you can contribute.
-
-#### How Do I Submit A Bug Report?
-
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
-
-Simply create an issue on the [GitHub Desktop issue tracker](https://github.com/desktop/desktop/issues/new?template=bug_report.md)
-and fill out the provided issue template.
-
-The information we are interested in includes:
-
- - details about your environment - which build, which operating system
- - details about reproducing the issue - what steps to take, what happens, how
-   often it happens
- - other relevant information - log files, screenshots, etc
-
-### Suggesting Enhancements
-
-This section guides you through submitting an enhancement suggestion for
-GitHub Desktop, including completely new features and minor improvements to
-existing functionality. Following these guidelines helps maintainers and the
-community understand your suggestion :pencil: and find related suggestions
-:mag_right:.
-
-Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion)
-as you might find out that you don't need to create one. When you are creating
-an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion).
-Fill in [the template](ISSUE_TEMPLATE/problem-to-raise.md), including the steps
-that you imagine you would take if the feature you're requesting existed.
-
-#### Before Submitting An Enhancement Suggestion
-
-**Perform a [cursory search](https://github.com/desktop/desktop/labels/enhancement)**
-to see if the enhancement has already been suggested. If it has, add a
-:thumbsup: to indicate your interest in it, or comment if there is additional
-information you would like to add.
-
-#### How Do I Submit An Enhancement Suggestion?
-
-Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/).
-
-Simply create an issue on the [GitHub Desktop issue tracker](https://github.com/desktop/desktop/issues/new?template=feature_request.md)
-and fill out the provided issue template.
-
-Some additional advice:
-
-* **Use a clear and descriptive title** for the feature request
-* **Provide a step-by-step description of the suggested enhancement**
-  This additional context helps the maintainers understand the enhancement from
-  your perspective
-* **Explain why this enhancement would be useful** to GitHub Desktop users
-* **Include screenshots and animated GIFs** if relevant to help you demonstrate
-  the steps or point out the part of GitHub Desktop which the suggestion is
-  related to. You can use [this tool](http://www.cockos.com/licecap/) to record
-  GIFs on macOS and Windows
-* **List some other applications where this enhancement exists, if applicable**
-
-### Help Wanted
-
-As part of building GitHub Desktop, we'll identify tasks that are good for
-external contributors to pick up. These tasks:
-
- - have low impact, or have a known workaround
- - should be addressed
- - have a narrow scope and/or easy reproduction steps
- - can be worked on independent of other tasks
-
-These issues will be labelled as [`help wanted`](https://github.com/desktop/desktop/labels/help%20wanted)
-in the repository. If you are interested in contributing to the project, please
-comment on the issue to let the core team (and the community) know you are
-interested in the issue.
-
-### Set Up Your Machine
-
-Start [here](https://github.com/desktop/desktop/blob/development/docs/contributing/setup.md).
-
-
-## Process Documentation
-
-These documents are useful resources for contributors  to learn more about the project and how it is run:
-
- - [Teams](https://github.com/desktop/desktop/blob/development/docs/process/teams.md)
- - [Release Planning](https://github.com/desktop/desktop/blob/development/docs/process/release-planning.md)
- - [Issue Triage](https://github.com/desktop/desktop/blob/development/docs/process/issue-triage.md)
- - [Issue and Pull Request Labels](https://github.com/desktop/desktop/blob/development/docs/process/labels.md)
- - [Pull Requests](https://github.com/desktop/desktop/blob/development/docs/process/pull-requests.md)
+[Here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) is a write up on how to change a Pull Request, and the different ways you can do that.
