@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+/app/test/fixtures/** -text
+/app/static/win32/github.sh eol=lf
